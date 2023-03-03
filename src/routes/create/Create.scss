@@ -1,0 +1,96 @@
+.create{
+    h2{
+        color: #191919;
+        font-size: 35px;
+        line-height: 46px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 65px;
+    }
+}
+.logo-navbar{
+    padding: 10px 32px 39px 32px;
+    display: flex;
+    justify-content: space-between;
+    span{
+        font-size: 16px;
+        line-height: 18.4px;
+        color: #191919;
+        align-self: flex-end;
+        a:hover{
+            color: #0654BA;
+           border-bottom: 1px solid #0654BA;
+        }
+    }
+}
+
+.create-item{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+    form{
+        padding-top: 55px;
+        padding-right: 85px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px 0px;
+        div{
+            display: flex;
+            justify-content: space-between;
+        }
+        .form-input1{
+            text-indent: 10px;
+            width: 138px;
+            height: 40px;
+            border-radius: 8px;
+            background-color: #F7F7F7;
+            border: 1px solid #8F8F8F;
+        }
+        .form-input2{
+            text-indent: 10px;
+            width: 300px;
+            height: 40px;
+            border-radius: 8px;
+            background-color: #F7F7F7;
+            border: 1px solid #8F8F8F;   
+        }
+        button{
+            font-size: 16px;
+            line-height: 18.4px;
+            font-weight: 700;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 15px 92px;
+            background-color: #0654BA;
+            border-radius: 24px;
+            cursor: pointer;
+        }
+    }
+}
+
+.create-item_google{
+    padding-top: 55px;
+    padding-left: 85px;
+    display: flex;
+    border-left: 1px solid #CCCCCC;
+    justify-content: center;
+    align-items: center;
+    button{
+        display: flex;
+        gap: 10px;
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: 700;
+        color: black;
+        text-align: center;
+        border: 2px solid black;
+        padding: 15px 52px;
+        border-radius: 24px;
+        align-items: center;
+        cursor: pointer;
+        svg{
+            font-size: 22px;
+        }
+    }
+}

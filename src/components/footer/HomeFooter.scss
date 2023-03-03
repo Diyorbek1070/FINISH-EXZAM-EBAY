@@ -1,0 +1,30 @@
+.homefooter{
+    padding-top: 11px;
+    border-top: 1px solid #CCCCCC;
+    margin-top: 90px;
+}
+.homefooter-item{
+    padding-top: 57px;
+    padding-left: 10px;
+    padding-right: 117px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.homefooter-item__firtchild{
+    color: #767676;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700; 
+}
+.homefooter-item__child{
+    font-size: 11px;
+    margin-top: 12px;
+    line-height: 12px;
+    color: #767676;
+}
+
+.homefooter-item__child:hover{
+    border-bottom: 1px solid #767676;
+    display: inline-block;
+}

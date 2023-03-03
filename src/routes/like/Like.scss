@@ -1,0 +1,35 @@
+section{
+    h1{
+        font-size: 40px;
+        text-align: center;
+        
+    }
+}
+.likepraduct{
+    display: flex;
+    flex-direction: column;
+    padding-top:70px;
+    gap: 20px;
+}
+.likepraduct-item{
+    display: flex;
+    gap: 20px;
+    img{
+        max-width: 400px;
+    } 
+    h2{
+        font-size: 22px;
+        font-weight: 500;
+        color: black;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 18px;
+        color: gray;
+        margin-bottom: 10px;
+    }
+    strong{
+        font-size: 22px;
+        font-weight: 700;
+    }
+}

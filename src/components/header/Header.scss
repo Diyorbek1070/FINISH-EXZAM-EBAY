@@ -1,0 +1,56 @@
+@mixin fontsize {
+     font-size: 12px;
+    line-height: 12px;
+    font-weight: 400px;
+}
+.header{
+    min-height: 31px;
+    border-bottom: 1px solid #E5E5E5;   
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    min-height: 31px;
+    align-items: center;
+    padding-right: 4px;
+}
+
+.header-nav{
+    display: flex;
+    gap: 31.03px;
+}
+.navlink{
+  @include fontsize();
+  a:hover{
+   color: #0654BA;
+   border-bottom: 1px solid #0654BA;
+  }
+}
+
+.header-nav__link{
+    display: flex;
+    gap: 19.8px;
+    @include fontsize();
+}
+
+
+.header__components{
+    display: flex;
+    gap: 20px;
+    @include fontsize();
+    align-items: center   
+}
+
+.header__components__call{
+    font-size: 22px;
+}
+.header__components__bascet{
+    svg{
+        font-size: 22px;
+    }
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

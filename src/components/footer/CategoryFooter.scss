@@ -1,0 +1,27 @@
+.category-footer{
+    padding-top: 11px;
+    padding-bottom: 19px;
+    border-top: 1px solid #E5E5E5;
+}
+.category-footer-list{
+    display: flex;
+    gap:25px;
+    justify-content: center;
+    padding: 43px 0px 44px 30px;
+    li{
+        font-size: 11px;
+        line-height: 12px;
+        color: #767676;
+    }
+    li:hover{
+        border-bottom: 1px solid #767676;
+    }
+}
+.category-footer-link{
+    text-align: center;
+    a{
+        font-size: 11px;
+        line-height: 12px;
+        color: #41413F;
+    }
+}

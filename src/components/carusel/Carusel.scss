@@ -1,0 +1,129 @@
+@mixin leftrightstyle {
+    background-color: white;
+    opacity: 85%;
+    position: absolute;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.carusel{
+    max-width: 1312px;
+    margin: 0 auto;
+    position: relative;
+}
+.carusel-wrapper__left{
+   @include leftrightstyle();
+   top: 45%;
+   left:10px;
+}
+.carusel-wrapper__right{
+   @include leftrightstyle();
+   top: 45%;
+   right: 20px;
+}
+.carusel-wrapper{
+    margin: 0 auto;
+    max-width: 1312px;
+    min-height: 330px;
+    align-items: center;
+    display: flex;
+    overflow: auto;
+    overflow: hidden;
+}
+
+.carusel-wrapper__card1{
+    width:1312px;
+    min-height: 100%;
+    background-color: #FEB786;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.carusel-wrapper__item1{
+    max-width: 323.48px;
+    padding: 15px 0px 0px 42px;
+    h1{
+        font-size: 36px;
+        line-height: 48.8px;
+        font-weight: 700;
+        color: #5C1B05;
+        margin-bottom: 7.8px;
+    }
+    p{
+        font-size: 17px;
+        line-height: 22.1px;
+        color: #5C1B05;
+        margin-bottom: 34.9px;
+    }
+   a{
+    padding: 10px 21px 10px 21px;
+    border: 2px solid #5C1B05;
+    color: #5C1B05;
+    display: flex;
+    display: inline;
+    gap: 10px;
+    align-items: center;
+   }
+   a:hover{
+    background-color: #5C1B05;
+    color: white;
+    transition: 0.5s;
+   }
+}
+.carusel-wrapper__img1{
+    display: flex;
+    width: 1200px;
+    img{
+        width: 300px;
+        // display: none;
+    }
+}
+
+.carusel-wrapper__card2{
+  width: 1312px;
+  display: flex;
+  height: 100%;
+  background-color: rgb(253,205,37);
+  justify-content: space-between;
+}
+
+.carusel-wrapper__card2__img2{
+    display: flex;
+    width: 1200px;
+    img{
+        width: 300px;
+    }
+}
+
+.carusel-wrapper__card2__item2{
+    padding: 15px 0px 0px 42px;
+    max-width: 323px;
+    h1{
+        font-size: 36px;
+        line-height: 48.8px;
+        font-weight: 700;
+        color: #5C1B05;
+        margin-bottom: 7.8px;
+    }
+    p{
+        font-size: 17px;
+        line-height: 22.1px;
+        color: #5C1B05;
+        margin-bottom: 34.9px;
+    }
+   a{
+    padding: 10px 21px 10px 21px;
+    border: 2px solid #5C1B05;
+    color: #5C1B05;
+    display: flex;
+    display: inline;
+    gap: 10px;
+    align-items: center;
+   }
+   a:hover{
+    background-color: #5C1B05;
+    color: white;
+    transition: 0.5s;
+   }
+}
